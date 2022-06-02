@@ -1,0 +1,176 @@
+header{
+  background-image: none;
+  height: auto;
+}
+.pc-nav{
+  display: block;
+}
+.sec01-pc{
+  position: fixed;
+  top: 20px;
+}
+.openbtn1{
+   display: none;
+}
+.top-img{
+  display: block;
+  margin: 100px auto;
+}
+.sec01__button{
+  display: none;
+}
+.g-nav-list{
+  display: none;
+}
+.sec01__title{
+  & h1{
+    font-size: 2.5rem;
+  }
+}
+.sec01-pc{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sns-title {
+  top:-50px;
+  p {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 1.5rem;
+  }
+}
+.sec01__sns {
+  display: block;
+  position: fixed;
+  top: 40%;
+  right: 10px;
+  & i {
+    margin: 10px;
+    font-size: 2rem;
+  }
+}
+
+
+.about {
+  &__container {
+    margin: 150px 0;
+  }
+  &__title {
+    margin: 150px 0;
+    position: relative;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+    & h2 {
+      font-size: 3.2rem;
+    }
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+  &__content {
+    max-width: 900px;
+    margin: 0px auto;
+  }
+  &__innner {
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+  &__img {
+    width: 100%;
+    margin: 0 auto;
+    & img {
+      width: 70%;
+    }
+  }
+  &__sub {
+    width: 50%;
+    margin: 10px;
+    & h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    & p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+  }
+}
+.concept-pc{
+  display: flex;
+  justify-content: center;
+}
+.pc-inner{
+  width: 100%;
+}
+.concept {
+  &__container {
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+  &__innner {
+    border: none;
+  }
+  &__img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    & img {
+      width: 90%;
+    }
+  }
+  &__title {
+    left: 0%;
+    margin: 0 ;
+    & h2 {
+      font-size: 1.5rem;
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}
+.tex {
+  margin: 15px 0;
+  font-size: .9rem;
+  color: #000;
+  line-height: 25px;
+}
+.title {
+  & h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 100px 0 50px 0;
+  }
+}
+
+.news {
+  &__container {
+    max-width:1000px;
+    margin: 30px auto;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  &__img {
+    width: 70%;
+    margin: 30px;
+    & img {
+      width: 100%;
+    }
+  }
+}
+.staff-button{
+  width: 60%;
+  margin: 0 auto;
+}
